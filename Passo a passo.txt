@@ -1,0 +1,19 @@
+ng new projeto
+
+trbalhando com o Guard
+
+instalar bootstrap
+  >> npm install  bootstrap
+
+    >> dentro do angular.json
+      >> Acrescentar o style
+        >> "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
+
+
+
