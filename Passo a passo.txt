@@ -15,5 +15,21 @@ instalar bootstrap
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
 
+pra usar a tela de loguin e preciso imporder o formsmodele dentro do model
+
+importar
+FormsModule,
+    ReactiveFormsModule
+no module para poder fazer as verificações
+do formulario
+
+no
+html em cima do imput usar o required
 
 
+criar o guard
+
+ng g guard auth/auth
+
+pergunta ser feita
+  >> canActivate

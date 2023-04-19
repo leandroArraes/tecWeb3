@@ -458,6 +458,7 @@ legend + * {
 
 ::-webkit-color-swatch-wrapper {
   padding: 0;
+
 }
 
 ::file-selector-button {
@@ -10845,4 +10846,12 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+#sidebar-wrapper{
+  width: 300px;
+}
+
+.sidebar-heading, border-bottom ,bg-light{
+  height: 80px;
 }
